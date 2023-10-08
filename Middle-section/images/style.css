@@ -1,0 +1,300 @@
+@import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.fifth-container {
+    height: 1055px;
+    flex-shrink: 0;
+    background-color: #FFF7DF;
+    position: relative;
+}
+
+.ellipse-img {
+    float: right;
+}
+
+.jn-icon {
+    position: absolute;
+    left: 1114px;
+    top: 262px;
+}
+
+.Vector {
+    position: absolute;
+    left: 65vw;
+    top: 100px;
+
+
+    stroke: #ebe7e7;
+}
+
+.Vector1 {
+    position: absolute;
+    left: 90vw;
+    top: 262px;
+
+}
+
+.shirt {
+    position: absolute;
+    left: 85vw;
+    top: 262px;
+}
+
+.Vector2 {
+    position: absolute;
+    left: 69vw;
+    top: 100px;
+
+}
+
+.left-section {
+    position: absolute;
+    top: 153px;
+    left: 124px;
+}
+
+.right-section {
+    position: absolute;
+    left: 60%;
+    top: 500.05px;
+}
+
+.left-section .left-top {
+    margin-bottom: 83.46px;
+}
+
+.right-section .name {
+    margin-bottom: 30.23px;
+}
+
+.right-section .email {
+    margin-bottom: 30.23px;
+}
+
+.right-section .join-btn {
+    margin-bottom: 12.09px;
+}
+
+.right-section .service {
+    color: #000;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 19.093px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 33.413px;
+    list-style-type: none;
+}
+
+.left-section .left-top .healthcare {
+    list-style-type: none;
+    color: #3D3D3D;
+    font-family: "Inter";
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69.408px;
+    letter-spacing: -1.329px;
+    margin-bottom: 19.34px;
+}
+
+.left-section .left-top .specialize {
+    list-style-type: none;
+    color: #3D3D3D;
+    font-family: "Inter";
+    font-size: 23.797px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40.653px;
+}
+
+.left-section .left-bottom .bottom-points {
+    display: flex;
+    margin-bottom: 41.54px;
+}
+
+.right-section .name input {
+    width: 491.858px;
+    height: 90.692px;
+    flex-shrink: 0;
+    border-radius: 39.662px;
+    padding: 32px 18px;
+    font-family: "Inter";
+    font-size: 15.865px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.763px;
+    border: none;
+}
+
+.right-section .email input {
+    width: 491.858px;
+    height: 90.692px;
+    flex-shrink: 0;
+    border-radius: 39.662px;
+    padding: 32px 18px;
+    font-family: "Inter";
+    font-size: 15.865px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27.763px;
+    border: none;
+}
+
+.right-section .join-btn button {
+    width: 491.858px;
+    height: 90.691px;
+    flex-shrink: 0;
+    border-radius: 39.379px;
+    background: #FF8A00;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: "Inter";
+    font-size: 23.866px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38.186px;
+    letter-spacing: -0.663px;
+}
+
+.container .fifth-container .right-section .join-btn button:hover {
+    background-color: #ff6f00;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.left-section .left-bottom .bottom-points .short-headline {
+    list-style-type: none;
+    margin-left: 29.75px;
+}
+
+.left-section .left-bottom .bottom-points .short-headline .drk-line {
+    font-family: "Inter";
+    font-size: 23.797px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 43.628px;
+    letter-spacing: -0.635px;
+}
+
+.left-section .left-bottom .bottom-points .short-headline .lorem-ipsum {
+    color: #3D3D3D;
+    font-family: "Inter";
+    font-size: 17.848px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.712px;
+    letter-spacing: -0.327px;
+}
+
+
+@media(max-width:625px) {
+
+    .fifth-container {
+       
+        height:  250vh;
+        margin-bottom: 90vw;
+    }
+
+
+    .ellipse-img {
+        display: none;
+    }
+
+    .healthcare li {
+        font-size: 8vw;
+        line-height: 10vw;
+        margin-right: 9vw;
+
+    }
+
+    .specialize li {
+        font-size: 5cqi;
+        line-height: 10vw;
+        margin-right: 9vw;
+    }
+
+    .bottom-points img {
+
+        width: 30vw;
+        height: 30vw;
+         padding-right: 12vw;
+        
+
+    }
+
+    .right-section {
+        
+
+        position: absolute;
+         top: 429vw;
+        
+            left: auto;
+        }
+
+        .name .input{
+            width: 5vw;
+             
+          
+        }
+    
+        .left-bottom {
+    
+            flex-direction: column;
+            float: left;
+        }
+
+        .right-section .email input {
+            width: 387.858px;
+            height: 70.692px;
+            flex-shrink: 0;
+            border-radius: 39.662px;
+            padding: 32px 18px;
+            font-family: "Inter";
+            font-size: 15.865px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27.763px;
+            border: none;
+        }
+
+        .right-section .name input {
+            width: 387.858px;
+            height: 70.692px;
+            flex-shrink: 0;
+            border-radius: 39.662px;
+            padding: 32px 18px;
+            font-family: "Inter";
+            font-size: 15.865px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27.763px;
+            border: none;
+        }
+
+        .right-section .join-btn button {
+        
+            width: 387.858px;
+            height: 70.692px;
+            flex-shrink: 0;
+            border-radius: 39.662px;
+            padding: 32px 18px;
+            font-family: "Inter";
+            font-size: 15.865px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 27.763px;
+            border: none;
+        }
+        .left-section .left-bottom .bottom-points {
+            flex-direction: column;
+            margin-bottom: 41.54px;
+        }
+    }
+    
